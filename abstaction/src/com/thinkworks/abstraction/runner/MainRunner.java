@@ -25,5 +25,11 @@ public class MainRunner {
         javaCourse.enroll();
         javaCourse.teach();
         javaCourse.grade();
+
+        System.out.println(" ");
+
+        SavingsAccount savingsAccount = new SavingsAccount();
+        savingsAccount.deposit();
+        savingsAccount.withdraw();
     }
 }
