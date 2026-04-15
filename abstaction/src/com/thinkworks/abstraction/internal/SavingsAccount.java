@@ -14,4 +14,9 @@ public class SavingsAccount extends BankAccount {
     public void withdraw() {
         System.out.println("amount withdrawn from savings account");
     }
+
+    @Override
+    public void credit() {
+        System.out.println("amount credited to savings account");
+    }
 }

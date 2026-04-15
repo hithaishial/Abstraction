@@ -31,5 +31,6 @@ public class MainRunner {
         SavingsAccount savingsAccount = new SavingsAccount();
         savingsAccount.deposit();
         savingsAccount.withdraw();
+        savingsAccount.credit();
     }
 }
